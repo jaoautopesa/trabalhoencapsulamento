@@ -16,4 +16,13 @@ class Pessoa {
     }
 }
 
+// Criando um objeto da classe Pessoa
+$pessoa = new Pessoa();
+
+// Definindo o nome através do método setNome()
+$pessoa->setNome("João");
+
+// Exibindo o nome através do método getNome()
+echo $pessoa->getNome();
+
 ?>
